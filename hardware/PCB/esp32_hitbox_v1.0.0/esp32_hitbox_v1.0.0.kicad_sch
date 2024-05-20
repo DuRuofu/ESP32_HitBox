@@ -5,41 +5,28 @@
 	(uuid "636fb88d-8f05-4c8a-9c11-16efb00cbda5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "DuRuofu_Switch:机械键盘按键(RGB)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+				(at -0.254 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Value" ""
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -56,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
+			(property "Description" ""
+				(at -1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -65,10 +52,33 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "机械键盘按键(RGB)_0_1"
 				(circle
-					(center -2.032 0)
+					(center -2.032 2.54)
 					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 1.7961)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -6.35 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -79,7 +89,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -2.54 -2.54) (xy -2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -91,7 +101,199 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy -2.54 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.794) (xy 2.159 4.191)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -3.81 2.54) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -102,7 +304,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -112,35 +314,120 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(symbol "机械键盘按键(RGB)_1_1"
+				(rectangle
+					(start -3.175 4.445)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "COL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "DOUT"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "LEDGND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "ROW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -152,16 +439,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 107.95 83.82 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 176.53 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "174fde44-94e5-4f0c-86f2-24b4882348da")
-		(property "Reference" "SW11"
-			(at 107.696 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "08e6e2cc-a8d3-4242-a062-7991e7d5363b")
+		(property "Reference" "U7"
+			(at 176.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,24 +457,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 107.95 78.74 0)
+			(at 176.53 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 78.74 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,8 +473,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 83.82 0)
+		(property "Datasheet" ""
+			(at 175.26 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,32 +482,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "b04ec067-53dd-40e4-a119-d3c18af8d20a")
+		(property "Description" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "655b9450-27ae-4c6e-951d-8a6624b5a1bb")
+		(pin "DIN"
+			(uuid "6fa63992-2cb7-495f-9f1d-396d19cbe280")
+		)
+		(pin "LED"
+			(uuid "1fd1cd7f-fc51-4672-8b6a-d7a188513b2f")
+		)
+		(pin "DOUT"
+			(uuid "ec80d135-809c-4d8c-bcfa-583a9629ece3")
+		)
+		(pin "COL"
+			(uuid "7beb0e52-7618-4b70-bab1-00d881a7fe17")
+		)
+		(pin "ROW"
+			(uuid "e28d4529-d59f-4fff-9ee8-26daeed4d734")
+		)
+		(pin "LEDGND"
+			(uuid "2a26f8ec-dcaf-4225-b8ab-851d9823b00a")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW11")
+					(reference "U7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 90.17 83.82 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 199.39 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1d1aff94-6577-4c0a-af82-7c05aefc18de")
-		(property "Reference" "SW10"
-			(at 89.916 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "1b1eed94-07f5-44cb-bd7c-87ec36c01dd8")
+		(property "Reference" "U12"
+			(at 199.39 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,24 +537,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 78.74 0)
+			(at 199.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 78.74 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 198.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,8 +553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 83.82 0)
+		(property "Datasheet" ""
+			(at 198.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -270,32 +562,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "bc6cc830-9333-4a38-9bfc-cf8fa4632424")
+		(property "Description" ""
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "878e5fd9-9466-470c-8caf-bc3571bae47f")
+		(pin "DIN"
+			(uuid "d53c92f1-ee0b-4f21-aa71-a0ea1d6f1be8")
+		)
+		(pin "LED"
+			(uuid "187dcb2c-d575-4511-bc68-a4690d5e840e")
+		)
+		(pin "DOUT"
+			(uuid "157d37c6-7d2f-41f6-b890-6ba19dc38f55")
+		)
+		(pin "COL"
+			(uuid "b7e2c89f-d054-4698-9aa6-b93bb0c91faf")
+		)
+		(pin "ROW"
+			(uuid "86022e16-b73e-4981-aa82-990bd791bbd0")
+		)
+		(pin "LEDGND"
+			(uuid "c8d36f00-3600-4fb2-bb69-0889b99d04a3")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 92.71 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2b939a68-f94f-4d66-a451-0c054fefe7a5")
-		(property "Reference" "SW1"
-			(at 74.676 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "5ad20ea8-05ea-464a-a1db-59e1a2e46d86")
+		(property "Reference" "U4"
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,24 +617,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 74.93 67.31 0)
+			(at 92.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,8 +633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 72.39 0)
+		(property "Datasheet" ""
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,32 +642,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e51bcd72-ae41-470d-883e-7586f1999c4f")
+		(property "Description" ""
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "a8fd15f1-3a0f-4cfa-baa8-f750691b98ef")
+		(pin "DIN"
+			(uuid "e80b4195-2e55-4c86-91d7-26de87337585")
+		)
+		(pin "LED"
+			(uuid "93a58c1b-d95c-4dd4-84f3-a5f2af3ddd3e")
+		)
+		(pin "DOUT"
+			(uuid "d8767407-2626-47ba-baea-57f3c54e1e6c")
+		)
+		(pin "COL"
+			(uuid "11bd4112-9409-45d1-bc11-dac6532c8394")
+		)
+		(pin "ROW"
+			(uuid "43f0477c-fca2-493f-9ab8-e6793c6e0b6b")
+		)
+		(pin "LEDGND"
+			(uuid "2937bdc0-a0d8-4053-9fed-e298c1b47ce6")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 139.7 83.82 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 152.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2bb26019-fac9-46bf-9774-4fd492566674")
-		(property "Reference" "SW13"
-			(at 139.446 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "6a64ec75-1034-48cb-9fa3-aeeea72c32a9")
+		(property "Reference" "U6"
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -370,24 +697,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 139.7 78.74 0)
+			(at 152.4 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 139.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 78.74 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,8 +713,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 139.7 83.82 0)
+		(property "Datasheet" ""
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,32 +722,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "4d8fa7ff-d09f-484b-b3ec-d2075df78057")
+		(property "Description" ""
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "b59cb557-e654-4daa-8965-67487557f54d")
+		(pin "DIN"
+			(uuid "55ba9a28-b427-4c88-bbb4-9e35aa93910e")
+		)
+		(pin "LED"
+			(uuid "3e9e72f6-c478-4093-9ffd-07cfda3444aa")
+		)
+		(pin "DOUT"
+			(uuid "9fa108c5-5e7c-4e9e-b8ad-c42501e5a153")
+		)
+		(pin "COL"
+			(uuid "381e9eba-f81b-4a6a-b4f5-1d5b366ff44f")
+		)
+		(pin "ROW"
+			(uuid "d4356dc1-e0aa-4101-aa15-b1154593fccd")
+		)
+		(pin "LEDGND"
+			(uuid "35dc70f6-7d2f-4c6b-a954-1012e8652a28")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW13")
+					(reference "U6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 154.94 83.82 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 92.71 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3758bf16-4c5f-4aa3-8e68-d0f5bf3c0a34")
-		(property "Reference" "SW14"
-			(at 154.686 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "9e7d4d83-ebde-416a-b224-c32d3b9cfaa5")
+		(property "Reference" "U2"
+			(at 92.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,24 +777,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 78.74 0)
+			(at 92.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 154.94 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 78.74 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,8 +793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 154.94 83.82 0)
+		(property "Datasheet" ""
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -471,32 +802,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "7f9882c6-0342-4a91-a8c3-811f6acf6b8f")
+		(property "Description" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "3cc5ba70-96e6-4328-8461-6410b97336f8")
+		(pin "DIN"
+			(uuid "d5a33719-188c-4935-bed2-633f2d617298")
+		)
+		(pin "LED"
+			(uuid "70959333-8e21-4f0f-a6a6-4367d8a36df7")
+		)
+		(pin "DOUT"
+			(uuid "99e98e59-0cbd-4040-b4dc-811ffaf2d1f1")
+		)
+		(pin "COL"
+			(uuid "ad2f48b6-726e-49fc-a1e2-1ebc89e97c06")
+		)
+		(pin "ROW"
+			(uuid "cd791fe8-532f-4789-a768-954c1f19451b")
+		)
+		(pin "LEDGND"
+			(uuid "a94d077d-4ed0-4399-8782-4d8fe5789d99")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW14")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 187.96 83.82 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 176.53 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "542458a2-6940-410e-a435-592eec23fc65")
-		(property "Reference" "SW16"
-			(at 187.706 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "9fb00731-a7e2-4189-b486-9085090edce9")
+		(property "Reference" "U11"
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -504,24 +857,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 78.74 0)
+			(at 176.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 187.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 78.74 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,8 +873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 187.96 83.82 0)
+		(property "Datasheet" ""
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,32 +882,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "0da3454c-f885-49da-8c90-a8fe776b5e52")
+		(property "Description" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "37248872-d4d4-4661-8b3a-30b1c3b79b87")
+		(pin "DIN"
+			(uuid "bd3ffa8e-9653-4695-81e6-2cf2518d4d14")
+		)
+		(pin "LED"
+			(uuid "005a9fb1-f2be-438e-9259-466bd82cd6c8")
+		)
+		(pin "DOUT"
+			(uuid "a3dfa1c8-b7f6-4262-b2c7-345cfc57be96")
+		)
+		(pin "COL"
+			(uuid "0001c5d2-87b5-4a37-bd69-2b3aa3e78f8b")
+		)
+		(pin "ROW"
+			(uuid "8d182cef-4c0a-4734-b641-01b35ddf2186")
+		)
+		(pin "LEDGND"
+			(uuid "0ff89cd3-e62c-4e1c-bed1-35492a55e38b")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW16")
+					(reference "U11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 83.82 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 125.73 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "54b49e85-b044-4202-8fd7-1e5a3713912b")
-		(property "Reference" "SW12"
-			(at 122.936 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "a3467bd4-314f-4734-b759-c3be9e8e1fcb")
+		(property "Reference" "U14"
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,24 +937,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 123.19 78.74 0)
+			(at 125.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 78.74 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -596,8 +953,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 83.82 0)
+		(property "Datasheet" ""
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,32 +962,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "94d97175-90da-4806-aefe-a83b9f99b7f2")
+		(property "Description" ""
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "98ff8092-4eb9-43cb-94cc-fe2778b3be07")
+		(pin "DIN"
+			(uuid "0189be0c-2b78-40d7-82e9-7b9bb625aeb9")
+		)
+		(pin "LED"
+			(uuid "503ec6c3-5a0d-4638-92e4-883f557b14ff")
+		)
+		(pin "DOUT"
+			(uuid "d508d2d2-4522-4e3a-9435-408ca09f72ed")
+		)
+		(pin "COL"
+			(uuid "0b3e8ad0-9552-46b1-926a-5708a9a1d97b")
+		)
+		(pin "ROW"
+			(uuid "5235daaa-e250-4b45-8320-6e6cc4698348")
+		)
+		(pin "LEDGND"
+			(uuid "71c363ee-3f87-4235-850f-683aa4917f85")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW12")
+					(reference "U14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 187.96 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 199.39 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "577e592e-109c-433a-9d39-3c2496c134a7")
-		(property "Reference" "SW8"
-			(at 187.706 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "b3e6c5e1-59fc-4a17-bc28-d195df868dbe")
+		(property "Reference" "U8"
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,24 +1017,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 187.96 67.31 0)
+			(at 199.39 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 187.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 198.12 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,8 +1033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 187.96 72.39 0)
+		(property "Datasheet" ""
+			(at 198.12 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,32 +1042,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ea72a0a3-da94-4c5d-98fa-6f9f300e4a92")
+		(property "Description" ""
+			(at 198.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "ae3f20e3-694f-4303-8333-7f8b9ddcf36d")
+		(pin "DIN"
+			(uuid "94b5394d-3ee7-4933-9ad2-e6c5b41efc95")
+		)
+		(pin "LED"
+			(uuid "b3972189-866b-4157-856e-a6bef5f400fe")
+		)
+		(pin "DOUT"
+			(uuid "abbb12dc-1eda-4db5-9023-5b398c31d8b8")
+		)
+		(pin "COL"
+			(uuid "f18f6dfc-5eb5-4f28-954d-a28a996824c7")
+		)
+		(pin "ROW"
+			(uuid "bac8d49e-c6b3-40c3-83db-f077486e1c1d")
+		)
+		(pin "LEDGND"
+			(uuid "c796df68-d705-464b-8375-0b8db1734fe0")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW8")
+					(reference "U8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 139.7 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 129.54 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "589f814d-cc5c-4fd1-803f-7650109f26d1")
-		(property "Reference" "SW5"
-			(at 139.446 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "c1daf2cf-6bcc-47e8-928b-50be35829156")
+		(property "Reference" "U5"
+			(at 129.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,24 +1097,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 139.7 67.31 0)
+			(at 129.54 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 139.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,8 +1113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 139.7 72.39 0)
+		(property "Datasheet" ""
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,32 +1122,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "5883689b-84fb-4fd7-823d-791068ef6fad")
+		(property "Description" ""
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "484209f6-95b8-4220-ad04-a7a1548c6004")
+		(pin "DIN"
+			(uuid "fa95b0da-a1d7-45e4-83e0-fb3943da1406")
+		)
+		(pin "LED"
+			(uuid "8d535c98-79c9-4bca-bc89-2154cf05f39c")
+		)
+		(pin "DOUT"
+			(uuid "1acc30c9-b95d-4e85-888d-9386485a5232")
+		)
+		(pin "COL"
+			(uuid "f1baa587-7a9e-4cc1-96da-566582f84a0a")
+		)
+		(pin "ROW"
+			(uuid "8a31b58e-98a5-4464-aa4b-86c2921962c2")
+		)
+		(pin "LEDGND"
+			(uuid "3ebfcd92-3510-4136-8428-010b656abbd8")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW5")
+					(reference "U5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 90.17 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 102.87 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e48cd64-ff9a-40d0-839a-6d54c026b388")
-		(property "Reference" "SW2"
-			(at 89.916 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "d1baa96a-f38c-4c76-9b7a-9f0806a52156")
+		(property "Reference" "U13"
+			(at 102.87 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,24 +1177,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 90.17 67.31 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 90.17 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,8 +1193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 72.39 0)
+		(property "Datasheet" ""
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,32 +1202,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f2b168e3-914b-462f-819d-bc937c776de3")
+		(property "Description" ""
+			(at 101.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "8f107476-5cd6-40ea-ba56-e2363fcb8f28")
+		(pin "DIN"
+			(uuid "857e3f97-cc52-48b3-a393-94bfae8725c7")
+		)
+		(pin "LED"
+			(uuid "90c7c83d-1df1-4572-a27b-41b22c79d9ae")
+		)
+		(pin "DOUT"
+			(uuid "791242e1-11a8-419b-a8a8-a3fcab162225")
+		)
+		(pin "COL"
+			(uuid "e1283659-9b54-41ed-bd9f-a08f155283f7")
+		)
+		(pin "ROW"
+			(uuid "2a6f2e8c-1411-4123-97f7-61c355dbd54a")
+		)
+		(pin "LEDGND"
+			(uuid "fe47739f-0934-4dab-bff3-9b3dc9595650")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW2")
+					(reference "U13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 69.85 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "908d3793-27b4-41b3-a2dd-bc2677397d6f")
-		(property "Reference" "SW4"
-			(at 122.936 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "d6318d64-74f6-424c-ad24-b5b864c5fdda")
+		(property "Reference" "U3"
+			(at 69.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,24 +1257,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 123.19 67.31 0)
+			(at 69.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 123.19 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,8 +1273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 72.39 0)
+		(property "Datasheet" ""
+			(at 68.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,32 +1282,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d25487e9-d771-4fca-a905-4ef9b54c2dc6")
+		(property "Description" ""
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "a62dd02f-fdb5-4a7b-ae90-9c94528b0fa6")
+		(pin "DIN"
+			(uuid "43c8f09c-4fa9-4414-9c90-506e129a9157")
+		)
+		(pin "LED"
+			(uuid "be83ba56-a882-438c-af92-3774787c2db0")
+		)
+		(pin "DOUT"
+			(uuid "882e6272-b8c1-40ce-8db2-dbd1cdb94e1e")
+		)
+		(pin "COL"
+			(uuid "587ceb4f-2f74-4301-9abb-60434e1e7e7a")
+		)
+		(pin "ROW"
+			(uuid "feb36012-982b-4d53-a60c-e72fa0e486d7")
+		)
+		(pin "LEDGND"
+			(uuid "d3215c8f-e805-4525-a7fe-f3d933bf8d14")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 154.94 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 152.4 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b6799c09-d9cc-409c-9e63-53c7cb8adbf7")
-		(property "Reference" "SW6"
-			(at 154.686 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "e74d5712-84e3-4fb8-97c0-b3a5da89bb99")
+		(property "Reference" "U10"
+			(at 152.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,24 +1337,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 67.31 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 154.94 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,8 +1353,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 154.94 72.39 0)
+		(property "Datasheet" ""
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,32 +1362,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "07d387d5-8190-4343-a541-fd384af05e05")
+		(property "Description" ""
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "d1ef5c33-576b-4d45-a439-e19d666fb181")
+		(pin "DIN"
+			(uuid "f95166bf-63f5-4992-8dd6-a38b8c021764")
+		)
+		(pin "LED"
+			(uuid "90d8fe9d-00d0-488a-96b8-8a87e9c40c74")
+		)
+		(pin "DOUT"
+			(uuid "fd7cda9e-c404-46b6-b3d4-537b57756b5e")
+		)
+		(pin "COL"
+			(uuid "d4443a83-1d63-4d53-971b-215464b8cf89")
+		)
+		(pin "ROW"
+			(uuid "2ed76793-31bf-4bf4-9339-a4a07ecac72e")
+		)
+		(pin "LEDGND"
+			(uuid "d5c47004-06e5-46bf-b4e3-ae957afa6870")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 172.72 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 69.85 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "baa8d981-aa13-4282-b5ae-89696de51553")
-		(property "Reference" "SW7"
-			(at 172.466 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "e93510cd-d7af-4267-9b41-2c91976073a4")
+		(property "Reference" "U1"
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,24 +1417,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 172.72 67.31 0)
+			(at 69.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 172.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,8 +1433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 172.72 72.39 0)
+		(property "Datasheet" ""
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,32 +1442,54 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "cd1c8a6e-94b3-442d-b9a0-7a0ac5c61be5")
+		(property "Description" ""
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "231bc5b7-9867-4ef7-a271-671a1c7db63b")
+		(pin "DIN"
+			(uuid "2a6d15be-f513-4850-b9f1-9b0088ba924d")
+		)
+		(pin "LED"
+			(uuid "5ad678ec-2816-493a-992a-bcbb1464ba40")
+		)
+		(pin "DOUT"
+			(uuid "c5e93097-dff4-424e-b1a1-5c96f8223fce")
+		)
+		(pin "COL"
+			(uuid "713b6e11-a3cc-4ef3-b580-8c8c54bfb692")
+		)
+		(pin "ROW"
+			(uuid "1bc5a7ec-813f-4780-b16a-6702a3cfccd9")
+		)
+		(pin "LEDGND"
+			(uuid "8bf7b136-1820-405d-89c4-bf8278abb667")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 107.95 72.39 0)
+		(lib_id "DuRuofu_Switch:机械键盘按键(RGB)")
+		(at 129.54 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d3395f15-2659-4f60-bfdd-d72ff0ebc01b")
-		(property "Reference" "SW3"
-			(at 107.696 67.818 0)
+		(fields_autoplaced yes)
+		(uuid "f59ec758-4dbf-469a-9542-33fbad477d7b")
+		(property "Reference" "U9"
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,24 +1497,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 107.95 67.31 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 67.31 0)
+		(property "Footprint" "DuRuofu_Switch:热插拔键盘轴(RGB反贴)(30mm)"
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,8 +1513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 72.39 0)
+		(property "Datasheet" ""
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,150 +1522,37 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "36e9e308-18b1-4d0f-9d05-60b087759a29")
+		(property "Description" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "30904319-912c-4cdf-83d1-ff08d29b0e0b")
+		(pin "DIN"
+			(uuid "f94b0efa-c6f2-4cff-8fff-76d46796403c")
+		)
+		(pin "LED"
+			(uuid "fa1bc808-9b91-4f3f-a7fb-084b15e931d3")
+		)
+		(pin "DOUT"
+			(uuid "8a941870-0700-44ef-ab23-08a0bfbbf45e")
+		)
+		(pin "COL"
+			(uuid "c0d05033-c25e-4223-8c51-3c8c6803e740")
+		)
+		(pin "ROW"
+			(uuid "12007e74-99c8-4489-81c0-aeac619d01a3")
+		)
+		(pin "LEDGND"
+			(uuid "1081f27a-25fb-4ddb-a3af-9c2b6c6e35e5")
 		)
 		(instances
 			(project "esp32_hitbox_v1.0.0"
 				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 172.72 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7d6754b-b117-4ab2-a78d-6137c5583193")
-		(property "Reference" "SW15"
-			(at 172.466 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 172.72 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b926a646-0a7e-4d78-8cee-2b572c66ef2c")
-		)
-		(pin "2"
-			(uuid "3641bb0c-68c2-4783-b372-4a8f7228bf0b")
-		)
-		(instances
-			(project "esp32_hitbox_v1.0.0"
-				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 74.93 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fea93319-311c-43f4-8faa-d4b18d996c5a")
-		(property "Reference" "SW9"
-			(at 74.676 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DuRuofu_Switch:Shaft_Base"
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 74.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7749cd1-9964-47df-8006-b67df8a59025")
-		)
-		(pin "2"
-			(uuid "8db5fa2d-a1d4-4b4f-9b02-3789f5765058")
-		)
-		(instances
-			(project "esp32_hitbox_v1.0.0"
-				(path "/636fb88d-8f05-4c8a-9c11-16efb00cbda5"
-					(reference "SW9")
+					(reference "U9")
 					(unit 1)
 				)
 			)
